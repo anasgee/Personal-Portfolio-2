@@ -57,7 +57,7 @@ ScrollReveal().reveal('.home-content h1, .about-img' , {origin:'left'});
 ScrollReveal().reveal('.home-content p, .about-content' , {origin:'right'});
 
 // Typ ed Js
-document.querySelectorAll('.multiple-text').forEach(function(elem){
+document.querySelectorAll('.multiple-text').forEach((elem)=>{
   new Typed(elem,{
     strings: ['Frontend Developer','React Developer', 'Youtuber', 'Graphic Designer'],
     typeSpeed: 50,
